@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Muskan Jaiswal - Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! This site showcases my journey as a **Full-Stack Web Developer**, my projects, skills, and more.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hi! I’m **Muskan Jaiswal**, a final-year CSE (AIML) student passionate about building **AI-integrated web applications**.  
+I enjoy turning ideas into interactive, responsive, and visually appealing web experiences.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🎓 Final Year, CSE (AIML)  
+- 💻 Full-Stack Web Developer (MERN Stack + AI tools)  
+- ⚡ DSA Enthusiast (200+ questions solved on LeetCode)  
+- 🚀 Constantly learning and experimenting with new tech  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Technologies & Tools
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** React, Next.js 15, Tailwind CSS, ShadCN UI, React Flow  
+- **Backend:** Node.js, Express.js, MongoDB, PostgreSQL  
+- **AI Integration:** OpenAI API (ChatGPT/Gemini)  
+- **Version Control:** Git & GitHub  
+- **Other Tools:** Vite, Lucide & React Icons, ESLint, Prettier  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🖥 Features
 
-## Deploy on Vercel
+- **Responsive Design**: Works beautifully on mobile, tablet, and desktop  
+- **Dynamic Projects Page**: View project details with interactive sections like tech stack, features, challenges, and live links  
+- **AI-Integrated Components**: Optional AI features for smart UI/UX in projects  
+- **Fast Loading & SEO Optimized**: Optimized images with Next.js Image component using `priority` and `sizes`  
+- **Dark Mode Friendly**: Sleek dark theme by default  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+
+muskan-portfolio/  
+│  
+├─ src/  
+│   ├─ app/                # Next.js App Router pages  
+│   │   ├─ projects/       # Dynamic project pages [slug]  
+│   │   └─ ...  
+│   ├─ components/         # Reusable UI components  
+│   ├─ data/               # Projects data  
+│   └─ styles/             # Tailwind + custom styles  
+│  
+├─ public/                 # Images, icons, assets  
+├─ package.json  
+├─ next.config.mjs  
+└─ README.md  
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:  
+`git clone https://github.com/MuskanJaiswal1/portfolio.git`  
+`cd portfolio`  
+
+2. Install dependencies:  
+`npm install`  
+
+3. Run the development server:  
+`npm run dev`  
+
+4. Open your browser and visit:  
+`http://localhost:3000`  
+
+> ⚠ For accessing from mobile on the same network, configure `allowedDevOrigins` in `next.config.mjs`.
+
+---
+
+## 📁 Projects Showcase
+
+Each project in the portfolio has its own dynamic page with:
+
+- Title & tagline  
+- Project description & features  
+- Tech stack badges  
+- Challenges & learnings  
+- Live demo links  
+
+Navigate to `/projects/[slug]` dynamically to see details.
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: [MuskanJaiswal1](https://github.com/MuskanJaiswal1)  
+- LinkedIn: [Muskan Jaiswal](https://www.linkedin.com/in/muskan-jaiswal-b6475b24b)  
+- Instagram: [@muskanjais401](https://instagram.com/muskanjais401)  
+
+---
+
+## 📝 Notes
+
+- All images use Next.js `<Image>` component with `priority` and `sizes` for optimal performance  
+- Dynamic routes are fully **SSG-friendly** using `generateStaticParams()` to pre-render project pages  
+- Fully tested on desktop, tablet, and mobile  
+
+---
+
+### ⚡ Made with ❤️ by Muskan Jaiswal  
