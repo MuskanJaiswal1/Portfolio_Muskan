@@ -1,14 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 
-/**
- * Simple typewriter that types & deletes each word in `words`.
- * Props:
- *  - words: string[]
- *  - typingSpeed: number (ms per char)
- *  - deletingSpeed: number (ms per char)
- *  - pause: number (ms before deleting)
- */
 export default function Typewriter({
   words = ["Muskan Jaiswal", "Student", "Web Developer", "C++ Coder"],
   typingSpeed = 80,
