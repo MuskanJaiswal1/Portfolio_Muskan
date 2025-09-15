@@ -8,9 +8,9 @@ import Contact from "@/components/Contact";
 export default function HomePage() {
   return (
     <main className="min-h-screen flex bg-[#060606]">
-      {/* <div className="hidden md:flex md:w-72 flex-col bg-[#1f1f1f]"> */}
+      <div className="flex-col bg-[#1f1f1f]">
         <Sidebar />
-      {/* </div> */}
+      </div>
       <div className="flex-1 flex flex-col overflow-auto">
         <Home />
         <AboutPage />
